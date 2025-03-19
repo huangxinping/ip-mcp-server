@@ -8,8 +8,6 @@ server = FastMCP("ip-server")
 async def ip() -> str:
     """
     Obtain the public IP address of the current machine.
-    Args:
-        query (str): The query to search for.
     Returns:
         str: The result of the IP.
     """
